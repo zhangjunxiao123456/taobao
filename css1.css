@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    color: #3C3C3C;
+    font-size: 12px;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+ul{
+    list-style: none;
+    display: block;
+}
+
+/* .head::after{
+    content: "";
+    display: block;
+    clear: both;
+} */
+.head .head1{
+    margin: 0 auto;
+    width: 1190px;
+    height: 35px;
+    background: #f5f5f5;
+    border: 1px solid red;
+}
+.head1-l{
+    float: left;
+}
+.head1-r{
+    float: right;
+}
+.head1-l >li{
+    display: inline-block;
+    border: 1px solid red;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 7px;
+    padding: 0px 6px;
+}
+.h{
+    color: #f22e00;
+}
+.head1 a:hover{
+    color: #f40;
+}
+
+.head1-r >li{
+    display: inline-block;
+    position: relative;
+    border: 1px solid red;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 7px;
+    padding: 0px 6px;
+}
+.head1-r a span:hover{
+    color: #f40;
+}
+.head1-r a span{
+    float: left;
+    display: inline-block;
+
+}
+
+.head2{
+    height: 70px;
+    width: 2260px;
+    border: 1px solid black;
+    background-color: #fd5632;
+}
+.head2 .ad{
+    width: 1190px;
+    margin: 0 auto;
+}
+.search-container{
+    height: 121px;
+    
+    border: 1px solid black;
+    text-align: center;
+}
+.search-context{
+    position: relative;
+    float: left;
+}
+.search-l a{
+    position: absolute;
+    left: 500px;
+    margin-top: 20px;
+    width: 190px;
+    height: 0px;
+    padding-top: 80px;
+    overflow: hidden;
+    border: 1px solid black;
+    background-image: url(http://img.alicdn.com/tfs/TB1_uT8a5ERMeJjSspiXXbZLFXa-143-59.png);
+    background-size: 190px 80px;
+}
+.search-c-t-t{
+    position: absolute;
+    left:800px;
+    margin-top: 20px;
+    width: 140px;
+    border: 1px solid black;
+}
+
+.search-c-t-t>ul>li{
+    display: inline-block ;
+    margin: 2px 3px;
+    padding: 1px 1px;
+    border: 1px solid black;
+    color: white ;
+    background-color: #f40;
+}
+.search-c-t .search-c-t-t>ul>li:hover{
+    background-color: rgb(240, 236, 218);
+}
+.search-c-t-t>ul .search-name2{
+    color: #3C3C3C;
+    background-color: white;
+}
+
